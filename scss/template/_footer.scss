@@ -1,0 +1,238 @@
+/*======================
+ * Footer
+==============================*/
+
+
+/* Footer Top Area */
+ .rn-footer {
+    position: relative;
+    z-index: 3;
+    padding: 80px 150px 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 0;
+    border-bottom: 1px solid rgba(255,255,255,.075);
+    align-items: center;
+}
+
+.ft-menu ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 0 -30px;
+}
+
+.ft-menu ul li a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.4s ease-in-out;
+    opacity: 0.7;
+}
+.ft-menu ul li a:hover {
+    opacity: 1;
+}
+
+.ft-menu ul li {
+    margin: 0 30px;
+}
+
+
+/* =======================
+Footer Container 
+============================*/
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 130px 0;
+}
+
+.footer-left {
+    flex-basis: 50%;
+}
+
+.footer-right {
+    flex-basis: 50%;
+}
+
+.footer-left h1 {
+    color: #f8f8f8;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.footer-left p a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.footer-left p a:hover {
+    opacity: 1;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-right h2 {
+    color: #c1c1c1;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.address p {
+    color: #fff;
+    display: block;
+    opacity: 0.7;
+}
+
+
+.address p span {
+    display: block;
+}
+.address-wrapper {
+    display: flex;
+    margin: 0 -70px;
+}
+.address {
+    margin: 0 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+Copyright Area 
+=============================*/
+
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 45px;
+}
+
+.cp-right ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin: 0 -15px;
+}
+
+.cp-left p {
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.cp-right ul li a {
+    color: #fff;
+    font-size: 14px;
+    transition: 0.4s ease-in-out;
+    opacity: 0.7;
+}
+.cp-right ul li a:hover {
+    opacity: 1;
+}
+
+.cp-right ul li {
+    margin: 0 15px;
+}
+
+.cp-right ul li a:hover {
+    color: #c1c1c1;
+}
+
+
+
+
+/* Scroll Up */
+.scrolltotop {
+    height: 35px;
+    position: relative;
+    float:right;
+    right: -10px;
+    top: 13px;
+    width: 35px;
+    cursor:pointer;
+    opacity:0.3;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.scrolltotop:hover {
+    top:8px;
+    opacity:1;
+}
+
+.arrow-top {
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    height: 10px;
+    transform: rotate(135deg);
+    width: 10px;
+    position: absolute;
+    left: 13.5px;
+    top: 2px;
+}
+
+.arrow-top-line {
+    background-color: #fff;
+    height: 35px;
+    left: 50%;
+    position: absolute;
+    top: 3px;
+    width: 2px;
+    -webkit-transition: height 0.2s ease-in-out;
+    -moz-transition: height 0.2s ease-in-out;
+    -o-transition: height 0.2s ease-in-out;
+    -ms-transition: height 0.2s ease-in-out;
+    transition: height 0.2s ease-in-out;
+}
+
+.scrolltotop:hover .arrow-top-line {
+    height:32px;
+}
+
+ 
+
+ footer#contact.rn-left-box-footer {
+    width: calc(100% - 135px);
+    margin-left: 135px;
+}
+
+
+
+
+
+
+
+
+
+

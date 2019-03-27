@@ -1,0 +1,163 @@
+/* ======================
+    Our Project Area 
+============================*/
+
+
+
+.rn-project{
+    .thumb {
+        position: relative;
+        z-index: 2;
+        margin-left: -50px;
+        display: inline-block;
+        margin-bottom: 46px;
+        .project-btn {
+            position: absolute;
+            right: -65px;
+            bottom: 0;
+            a {
+                background: #001c43;
+                width: 130px;
+                display: block;
+                height: 70px;
+                color: #fff;
+                text-align: center;
+                line-height: 75px;
+                font-size: 36px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 4px;
+                // opacity: 0;
+                // transition: 0.3s;
+                // visibility: hidden;
+                // transform: translateX(-30px);
+                svg{
+                    fill: #ffffff;
+                    transition: all .4s;
+                    z-index: 5;
+                }
+            }
+        }
+    }
+    .project-type {
+        flex-basis: 33.33%;
+        h6 {
+            color: #001c43;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+        p {
+            margin: 0;
+            font-size: 12px;
+            color: #000000;
+            letter-spacing: 1px;
+        }
+    }
+    &.rnalign-right{
+        .thumb {
+            
+            .project-btn {
+                left: -65px;
+                bottom: 0;
+                right: auto;
+            }
+        }
+    }
+}
+// .rn-project .thumb:hover .project-btn a{
+//     opacity: 1;
+//     visibility: visible;
+//     transform: translateX(0);
+// }
+svg:not(:root) {
+    overflow: hidden;
+}
+
+
+
+
+
+
+.rn-project-meta-inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.rn-project-meta-inner .section-title h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+// .rn-project-meta h6 {
+//     font-size: 12px;
+//     font-weight: 700;
+//     letter-spacing: 2px;
+//     margin-bottom: 8px;
+//     color: #001c43;
+// }
+
+// .rn-project-meta p {
+//     font-size: 12px;
+//     font-weight: 400;
+// }
+
+.rn-project-meta{
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+.rn-project-meta .project-type + .project-type {
+    margin-top: 30px;
+}
+
+
+.project-btn a::before{
+    top: 0;
+    content: '';
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 0;
+    z-index: 1;
+    background: rgba(255,255,255,0.5);
+}
+.project-btn a:hover::before {
+    animation: slide-effect .7s cubic-bezier(.70,.15,.340,.870) both;
+    width: 100%;
+}
+.project-btn a:hover svg{
+    transform: translateX(10px);
+}
+@keyframes slide-effect {
+    0% {
+        transform: translateX(-100%)
+    }
+    50% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(100%)
+    }
+}
+.rn-project .thumb img {
+    border-radius: 5px;
+}
+
+.rn-project-meta-area.rn-project.section-ptb-xl .rn-project-meta-inner {
+    margin-top: -10px;
+}
+
+.rn-project-meta-area.rn-project.section-ptb-xl .rn-project-content {
+    margin-top: -7px;
+    margin-bottom: -18px;
+}
+
+.rn-project-meta-area.rn-project.section-ptb-xl.bg_color--3 {}
+
+.rn-project-meta-area.rn-project.section-ptb-xl .rn-project-meta {
+    margin-bottom: -18px;
+}

@@ -1,0 +1,81 @@
+/* ======================
+Our Story Area 
+=============================*/
+
+.story-inner {
+    position: relative;
+    z-index: 2;
+    padding-right: 0;
+    .content{
+        margin-top: 42px;
+
+        p {
+            color: #000000;
+            font-size: 14px;
+            line-height: 26px;
+            & + p{
+                margin-top: 31px;
+            }
+        }
+    }
+}
+.story-btn {
+    margin-top: 34px;
+    a{
+        display: inline-block;
+        color: #000000;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-right: 80px;
+        position: relative;
+        
+        &::before{
+            position: absolute;
+            content: "";
+            width: 53px;
+            height: 1px;
+            background: #dddddd;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: 0.5s;
+        } 
+        &::after{
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 1px;
+            background: rgba(0,0,0,0.5);
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: 0.5s;
+        } 
+    }
+}
+.story-btn a:hover::before{
+    width: 0px;
+}
+.story-btn a:hover::after{
+    width: 53px;
+}
+.story-image {
+    height: 100%;
+    background-image: url('img/bg/about.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+

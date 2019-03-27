@@ -1,0 +1,54 @@
+/*=============================
+ * Banner
+===============================*/
+
+
+
+/* ====================
+    Slider Area 
+=======================*/
+
+.slider-content {
+    background: #001c43;
+    color: #fff;
+    width: 100%;
+    padding: 53px 65px;
+    display: flex;
+    align-items: center;
+    .left{
+        flex-basis: 50%;
+        p {
+            color: #ffffff;
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: 0;
+        }
+    }
+    .right{
+        flex-basis: 50%;
+        padding-left: 100px;
+        p {
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 1px;
+            margin: 0;
+        }
+    }
+}
+.slide{
+    width: 100vw;
+}
+
+.banner-area img {
+    width: 100%;
+}
+
+

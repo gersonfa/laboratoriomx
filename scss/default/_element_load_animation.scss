@@ -1,0 +1,67 @@
+
+.rn_surface {
+	position: relative;
+	overflow: hidden
+}
+
+.rn_surface::after,
+.rn_surface::before {
+	content: '';
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%
+}
+
+.rn_surface::after {
+	background: #fff;
+	z-index: 1
+}
+
+.touch .rn_surface::after,
+.touch .rn_surface::before {
+	visibility: hidden
+}
+
+.rn_surface.animated::before {
+	background: #ddd;
+	animation: rn_surface 2s cubic-bezier(.80, 0, .180, 1) both;
+	z-index: 2;
+}
+
+.rn_surface.animated::after {
+	animation: rn_surfaceBack 2s cubic-bezier(.80, 0, .180, 1) both
+}
+
+@keyframes rn_surface {
+	0% {
+		transform: translateX(-100%)
+	}
+	50% {
+		transform: translateX(0)
+	}
+	100% {
+		transform: translateX(100%)
+	}
+}
+
+@keyframes rn_surfaceBack {
+	0% {
+		transform: translateX(0)
+	}
+	100% {
+		transform: translateX(100%)
+	}
+}
+
+@keyframes rn_surface-vertical {
+	0% {
+		transform: translateY(100%)
+	}
+	50% {
+		transform: translateY(0)
+	}
+	100% {
+		transform: translateY(-100%)
+	}
+}

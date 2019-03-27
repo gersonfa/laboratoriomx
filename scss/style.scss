@@ -1,0 +1,107 @@
+/*----------------------------------------------------------------
+
+	Template Name: TheRN - Creative Agency HTML5 Template 
+	Version: 1.0
+
+-------------------------------------------------------------------------*/
+
+/*------------------------------------------------------
+	
+	STYLESHEET INDEXING
+	
+		Default Styles
+	|	
+	|	|___ variables
+	|	|___ mixins
+	|	|___ reset
+	|	|___ typography
+	|	|___ animations
+	|	|___ shortcode
+
+		Elements Styles
+
+	|	|___ button
+	|	|___ section-title
+	|	|___ progress-bar
+	|	|___ story
+	|	|___ service
+	|	|___ award
+	|	|___ blog
+	|	|___ blog-details
+	|	|___ paralax
+	|	|___ contact
+	|	|___ fullpage
+
+	Template Styles
+
+	|	|___ header
+	|	|___ navigation
+	|	|___ banner
+	|	|___ portfolio-details
+	|	|___ footer
+	|	|___ responsive
+	
+	|___ END STYLESHEET INDEXING
+
+-----------------------------------------------------------*/
+
+
+/*--------------------------------------
+    Default Styles
+---------------------------------------*/
+@import 'default/variables';
+@import 'default/mixins';
+@import 'default/reset';
+@import 'default/typography';
+@import 'default/animations';
+@import 'default/element_load_animation';
+@import 'default/shortcode';
+@import 'default/preloader';
+@import 'default/rn_grid';
+@import 'default/plugin';
+
+
+
+
+/*--------------------------------
+	Elements Styles
+------------------------------------*/
+@import 'elements/button';
+@import 'elements/blog';
+@import 'elements/blog-details';
+@import 'elements/section_title';
+@import 'elements/extra';
+
+
+/*----------------------------------
+	Template Styles
+-----------------------------------*/
+@import 'template/header';
+@import 'template/navigation';
+@import 'template/banner';
+@import 'template/story';
+@import 'template/works';
+@import 'template/testimonial';
+@import 'template/brand';
+@import 'template/team';
+@import 'template/contact';
+@import 'template/footer';
+
+
+@import 'default/responsive';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+.team-content{
+    padding: 15px 0;
+}
+.team-content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+    transition: 0.3s ease-in-out;
+}
+.team-content p {
+    font-size: 12px;
+    line-height: 26px;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 0;
+    color: #000;
+}
+a.team-item{
+    display: block;
+    margin-bottom: 30px;
+}
+.team-thumb img{
+    transition: 0.3s;
+}
+a.team-item, .team-thumb{
+    overflow: hidden;
+}
+a.team-item:hover .team-thumb img{
+    transform: scale(1.1);
+}
+.rn-team-area.section-ptb-xl.bg_color--3 {
+    padding-bottom: 75px;
+}

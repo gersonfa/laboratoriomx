@@ -1,0 +1,27 @@
+/*=========================
+ * Section Title
+===========================*/
+
+
+
+.section-title{
+    line-height: 1;
+    span {
+        color: #000000;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: inline-block;
+        margin-bottom: 17px;
+        line-height: 1;
+    }
+    p {
+        line-height: 26px;
+    }
+    h2 {
+        font-size: 36px;
+        color: #001c43;
+        font-weight: 600;
+    }
+}
