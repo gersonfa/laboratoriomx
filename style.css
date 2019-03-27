@@ -121,7 +121,7 @@ dfn {
 
 mark {
   background: #ff0;
-  color: #000; }
+  color: #32322C; }
 
 p {
   margin: 0 0 24px; }
@@ -513,7 +513,7 @@ textarea {
   textarea:focus,
   textarea:active {
     outline: none;
-    border-color: #001c43; }
+    border-color: #00a7a0; }
 
 input,
 select,
@@ -622,7 +622,7 @@ select {
 
 /* Define Colors */
 .color-theme {
-  color: #001c43; }
+  color: #00a7a0; }
 
 .color-light {
   color: #999999; }
@@ -641,16 +641,16 @@ select {
   background: #fff; }
 
 .bg_color--2 {
-  background: #001c43; }
+  background: #00a7a0; }
 
 .bg_color--3 {
   background: #f8f8f8; }
 
 .bg_color--4 {
-  background: #101010; }
+  background: #80CED7; }
 
 .bg-theme {
-  background: #001c43 !important; }
+  background: #00a7a0 !important; }
 
 .bg-secondary {
   background: #3498db !important; }
@@ -680,7 +680,7 @@ select {
 
 /* Background Image */
 .bg_image--1 {
-  background-image: url(img/bg/bg-image-1.jpg);
+  background-image: url(img/lab/amamos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -1710,7 +1710,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   z-index: 2; }
 
 [data-overlay]:before {
-  background-color: #001c43; }
+  background-color: #00a7a0; }
 
 [data-black-overlay]:before {
   background-color: #000000; }
@@ -1759,7 +1759,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 #scrollUp {
   width: 40px;
   height: 40px;
-  background-color: #001c43;
+  background-color: #00a7a0;
   border: 3px solid #eeeeee;
   color: #333333;
   right: 20px;
@@ -3338,7 +3338,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
         .blog .content ul.post-meta li i {
           padding-right: 7px; }
         .blog .content ul.post-meta li a {
-          color: #000; }
+          color: #32322C; }
 
 .blog .content ul.post-meta li:first-child {
   margin-left: 0; }
@@ -3403,7 +3403,7 @@ Blog Details Area
     line-height: 26px; }
   .section-title h2 {
     font-size: 36px;
-    color: #001c43;
+    color: #00a7a0;
     font-weight: 600; }
 
 /* =======================
@@ -3438,11 +3438,11 @@ main.page-content div div, footer div {
   appearance: none;
   border: none;
   background-color: transparent;
-  color: #000; }
+  color: #32322C; }
 
 .rn-page-progress-bar {
   height: 2px;
-  background: #000;
+  background: #32322C;
   width: 0%; }
 
 .project-type ul {
@@ -3472,8 +3472,8 @@ body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #001c43;
-  outline: 1px solid #001c43; }
+  background-color: #00a7a0;
+  outline: 1px solid #00a7a0; }
 
 /*----------------------------------
 	Template Styles
@@ -3553,7 +3553,7 @@ nav.menu-section {
   justify-content: space-around; }
 
 /*.menu-open .menu-section {
-    background-color: #000;
+    background-color: #32322C;
     height: 100vh;
     padding-top: 120px;
     position: absolute;
@@ -3737,10 +3737,10 @@ div.menu-toggle {
   transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1); }
 
 .white-bg .menu-toggle span.menu-text {
-  color: #000; }
+  color: #32322C; }
 
 .white-bg .hamburger-wrap span {
-  background: #000; }
+  background: #32322C; }
 
 .menu-text-wrap {
   position: relative;
@@ -3829,7 +3829,7 @@ span.menu-text.open-text {
   width: 50vw; }
 
 .ovl-right {
-  background: lightslategrey;
+  background: #4C6085;
   padding: 80px;
   padding-left: 0;
   min-height: 100%; }
@@ -3841,14 +3841,14 @@ span.menu-text.open-text {
 .ovl-logo {
   width: 40%;
   padding: 40px;
-  background: lightslategrey;
+  background: #4C6085;
   display: flex;
   align-items: center;
   justify-content: center; }
 
 .ovl-map {
   width: 60%;
-  background-image: url("img/bg/map.png");
+  background-image: url("img/lab/ubicacion.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
@@ -3867,7 +3867,7 @@ span.menu-text.open-text {
 .ovl-social {
   width: 40%;
   padding: 40px;
-  background: #001c43;
+  background: #00a7a0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3875,7 +3875,7 @@ span.menu-text.open-text {
 
 .ovl-quick-info {
   width: 60%;
-  background: #000;
+  background: #32322C;
   padding: 40px;
   text-align: center;
   display: flex;
@@ -3997,10 +3997,10 @@ span.menu-text.open-text {
   padding: 35px 50px; }
 
 .rn-header .white .hamburger-wrap span {
-  background: #000; }
+  background: #32322C; }
 
 .rn-header .white .menu-toggle span.menu-text {
-  color: #000; }
+  color: #32322C; }
 
 .rn-header .black .hamburger-wrap span {
   background: #fff; }
@@ -4042,7 +4042,7 @@ span.menu-text.open-text {
     Slider Area 
 =======================*/
 .slider-content {
-  background: #001c43;
+  background: #00a7a0;
   color: #fff;
   width: 100%;
   padding: 53px 65px;
@@ -4133,7 +4133,7 @@ Our Story Area
 
 .story-image {
   height: 100%;
-  background-image: url("img/bg/about.jpg");
+  background-image: url("img/lab/mapa.png");
   background-position: center center;
   background-size: cover; }
 
@@ -4151,7 +4151,7 @@ Our Story Area
     right: -65px;
     bottom: 0; }
     .rn-project .thumb .project-btn a {
-      background: #001c43;
+      background: #00a7a0;
       width: 130px;
       display: block;
       height: 70px;
@@ -4169,7 +4169,7 @@ Our Story Area
 .rn-project .project-type {
   flex-basis: 33.33%; }
   .rn-project .project-type h6 {
-    color: #001c43;
+    color: #00a7a0;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -4250,7 +4250,7 @@ Testimonial Area
   z-index: 2; }
 
 .testimonial .content p {
-  color: #001c43;
+  color: #00a7a0;
   font-size: 36px;
   line-height: 60px;
   padding: 0 30%;
@@ -4275,7 +4275,7 @@ Testimonial Area
     text-align: left;
     padding-left: 30px; }
     .testimonial .content .client-info .info h6 {
-      color: #001c43;
+      color: #00a7a0;
       font-weight: 700;
       font-size: 16px;
       margin-bottom: 10px; }
@@ -4379,7 +4379,7 @@ main.page-content div div:focus {
   line-height: 26px;
   transition: 0.3s ease-in-out;
   margin-bottom: 0;
-  color: #000; }
+  color: #32322C; }
 
 a.team-item {
   display: block;
@@ -4441,7 +4441,7 @@ a.team-item:hover .team-thumb img {
 
 .contact-info p {
   font-size: 12px;
-  color: #000;
+  color: #32322C;
   opacity: 0.8;
   font-weight: 400;
   text-transform: uppercase;
@@ -4451,7 +4451,7 @@ a.team-item:hover .team-thumb img {
 .contact-info h6, .contact-info h6 a {
   font-size: 12px;
   font-weight: 600;
-  color: #000;
+  color: #32322C;
   letter-spacing: 0.5px;
   margin-bottom: 0;
   line-height: 22px; }
@@ -4466,7 +4466,7 @@ a.team-item:hover .team-thumb img {
 .form-messege-active.error {
   margin: 30px 0 0 0;
   padding: 15px 20px;
-  background: #000;
+  background: #32322C;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   color: red; }
 
@@ -5127,7 +5127,7 @@ Responsive Css
     padding-left: 0; }
 
   .testimonial .content .client-info .info h6 {
-    color: #001c43;
+    color: #00a7a0;
     font-weight: 500;
     font-size: 14px; }
 
