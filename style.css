@@ -51,6 +51,17 @@
 /**
  * Reset Styels
  */
+
+ @font-face {
+  font-family: klima-light;
+  src: url('fonts/klima-light-web.woff');
+}
+
+@font-face {
+  font-family: klima-medium;
+  src: url('fonts/klima-medium-web.woff');
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -363,11 +374,11 @@ html {
 
 body {
   overflow: hidden;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 26px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Poppins", sans-serif;
+  font-family: "klima-light", sans-serif;
   color: #000000;
   font-weight: 400;
   margin: 0; }
@@ -414,7 +425,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "klima-medium", sans-serif;
   line-height: 1.3;
   color: #333333; }
 
@@ -3380,7 +3391,7 @@ Blog Details Area
 .top-banner-wrap .section-title h1,
 .top-banner-wrap .rn-blog-meta .project-type h6,
 .top-banner-wrap .rn-blog-meta .project-type p {
-  color: #fff; }
+  color: black; }
 
 .top-banner-wrap .project-type + .project-type {
   margin-top: 30px; }
@@ -4042,7 +4053,7 @@ span.menu-text.open-text {
     Slider Area 
 =======================*/
 .slider-content {
-  background: #00a7a0;
+  background: black;
   color: #fff;
   width: 100%;
   padding: 53px 65px;
@@ -4340,7 +4351,7 @@ main.page-content div div:focus {
   align-items: center;
   list-style: none; }
   .brand-wrapper ul.clent-list li {
-    flex-basis: 50%;
+    flex-basis: 25%;
     text-align: center;
     height: 214px;
     line-height: 214px;
