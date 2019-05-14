@@ -25,6 +25,7 @@
 
 	<!-- Custom Styles -->
 	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="./scss/glider/glider.min.css">
 </head>
 
 <body>
@@ -233,13 +234,27 @@
 						<!-- Start Single Project -->
 						<div class="rn-project mt--100">
 							<div class="col-4 offset-1">
-								<div class="thumb">
+									<div class="glider-contain">
+											<div class="glider">
+												<div><img class="img-slide" src="./img/taller/TALLER  INT.SEGURAS.jpg" alt=""></div>
+												<div><img class="img-slide" src="./img/taller/TALLER ENTR. ESCOLARES.jpg" alt=""></div>
+												<div><img class="img-slide" src="./img/taller/TALLER INT.COMPLEJAS.jpg" alt=""></div>
+												<div><img class="img-slide" src="./img/taller/TALLER POLITICAS PUBLICAS.jpg" alt=""></div>
+												<div><img class="img-slide" src="./img/taller/TALLER SEGURIDAD PUBLICA.jpg" alt=""></div>
+											</div>
+
+											<button role="button" aria-label="Previous" class="glider-prev">«</button>
+											<button role="button" aria-label="Next" class="glider-next">»</button>
+											<div role="tablist" class="dots" id="dots"></div>
+										</div>
+								<!-- <div class="thumb">
 									<div class="rn_surface">
 										<a href="#">
 											<img src="img/project/project-1.jpg" alt="creative agency">
 										</a>
+										
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<div class="col-3 offset-1">
 								<div class="content row">
@@ -381,6 +396,27 @@
 	<script src="js/TweenMax.js"></script>
 	<script src="js/medium-zoom.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="./js/glider.min.js"></script>
+
+	<script>
+		window.addEventListener('load', function () {
+			new Glider(document.querySelector('.glider'), {
+				slidesToShow: 1,
+				dots: '#dots',
+				draggable: true,
+				arrows: {
+					prev: '.glider-prev',
+					next: '.glider-next'
+				}
+			})
+		})
+	</script>
+
+	<style>
+		.img-slide {
+			width: 100%;
+		}
+	</style>
 </body>
 
 </html>

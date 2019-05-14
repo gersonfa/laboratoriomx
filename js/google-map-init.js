@@ -9,12 +9,12 @@
 		    // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 		    var mapOptions = {
 		        // How zoomed in you want the map to start at (always required)
-		        zoom: 12,
+		        zoom: 16,
 
 		        scrollwheel: false,
 
 		        // The latitude and longitude to center the map (always required)
-		        center: new google.maps.LatLng(19.0261287,-98.2125165), // New York
+		        center: new google.maps.LatLng(19.0246136,-98.2092356), // New York
 
 		        // How you would like to style the map. 
 		        // This is where you would paste any style found on Snazzy Maps.
@@ -258,10 +258,10 @@
 
 		    // Let's also add a marker while we're at it
 		    var marker = new google.maps.Marker({
-		        position: new google.maps.LatLng(19.0261287,-98.21251654),
+		        position: new google.maps.LatLng(19.0246136,-98.2092356),
 		        map: map,
-		        title: 'Tasfiu!',
-		        icon: 'img/logo/lab.png',
+		        title: 'LAPMX!',
+		        icon: 'img/logo/lab_logo.png',
 		        animation: google.maps.Animation.BOUNCE
 
 		    });
